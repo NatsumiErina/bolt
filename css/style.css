@@ -11,6 +11,7 @@ body {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
 }
 
@@ -18,7 +19,9 @@ a {
   width: 100%;
   background-color: #fff;
   position: fixed;
-  z-index: 1;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
 .title {
@@ -84,6 +87,10 @@ a {
   cursor: pointer;
 }
 
+.main {
+  padding-top: 70px;
+}
+
 .title-inner {
   padding: 250px 0;
   text-align: center;
@@ -103,6 +110,10 @@ a {
   margin-top: 20px;
 }
 
+.section-text {
+  width: 600px;
+}
+
 .section-mobile_inner {
   text-align: center;
   display: flex;
@@ -113,7 +124,7 @@ a {
 }
 
 .section-mobile_title {
-  font-family: Raleway; 
+  font-family: Raleway;
   font-size: 24px;
 }
 
@@ -138,6 +149,7 @@ a {
 .article-img-box {
   margin-top: 40px;
   font-size: 0;
+  text-align: left;
 }
 
 .article-img {
@@ -176,7 +188,7 @@ a {
 .article-text {
   font-size: 20px;
   color: #4e4e4e;
-  padding-right: 90px;
+  width: 580px;
 }
 
 .article_contace {
@@ -184,8 +196,8 @@ a {
   color: #fff;
   font-size: 12px;
   background-color: #74cfae;
+  margin-left: 90px;
   padding: 14px 20px;
-  font-family: Lato;
   transition: all 0.3s;
 }
 
@@ -211,10 +223,11 @@ a {
   justify-content: center;
   font-size: 16px;
   color: #fff;
-  font-family: Lato;
+  margin-top: 70px;
 }
+
 .section-img {
-  margin:70px 0 0 180px;
+  margin-left: 180px;
   text-align: center;
 }
 
@@ -229,12 +242,14 @@ a {
 
 
 .nav-inner {
+  display: inline-block;
   text-align: center;
   padding: 200px 0;
 }
 
 .nav-img {
   display: inline-block;
+  text-align: center;
   width: 185px;
   padding: 30px 0;
   background-color: #f2f2f2;
@@ -246,7 +261,7 @@ a {
   cursor: pointer;
 }
 
-.fa-facebook-f, .fa-basketball-ball, .fa-twitter, .fa-envelope{
+.fa-facebook-f, .fa-dribbble, .fa-twitter, .fa-envelope{
   color: #74cfae;
   zoom: 3;
 }
@@ -256,7 +271,6 @@ a {
 }
 
 .footer-text {
-  float: right;
-  font-family: Lato;
+  text-align: right;
   color: #fff;
 }
