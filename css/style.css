@@ -10,6 +10,10 @@ body {
   font-family: Lato;
 }
 
+.is-raleway {
+  font-family: Raleway;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
@@ -34,7 +38,7 @@ a {
   background-color: #74cfae;
 }
 
-.article {
+.article-OUR_LATEST_WORK {
   width: 100%;
   background-color: #f2f2f2;
 }
@@ -44,7 +48,7 @@ a {
   background-color: #4e4e4e;
 }
 
-.nav {
+.nav-icon {
   width: 100%;
   background-color: #f2f2f2;
 }
@@ -99,12 +103,10 @@ a {
 .title-inner_h1 {
   font-size: 90px;
   font-weight: 700;
-  font-family: Raleway;
   color: #74cfae;
 }
 
 .title-inner_h2 {
-  font-family: Raleway;
   font-size: 30px;
   color: #c0c0c0;
   margin-top: 20px;
@@ -124,7 +126,6 @@ a {
 }
 
 .section-mobile_title {
-  font-family: Raleway;
   font-size: 24px;
 }
 
@@ -140,7 +141,6 @@ a {
 }
 
 .article-title {
-  font-family: Raleway;
   font-size: 24px;
   color: #4e4e4e;
   
@@ -191,7 +191,7 @@ a {
   width: 580px;
 }
 
-.article_contace {
+.article_contact {
   display: inline-block;
   color: #fff;
   font-size: 12px;
@@ -211,7 +211,6 @@ a {
 }
 
 .section-OURSKILL_title {
-  font-family: Raleway;
   text-align: center;
   font-size: 24px;
   color: #fff;
@@ -242,16 +241,18 @@ a {
 
 
 .nav-inner {
-  display: inline-block;
   text-align: center;
   padding: 200px 0;
+}
+
+.nav-link {
+  width: 185px;
+  padding: 30px 0;
 }
 
 .nav-img {
   display: inline-block;
   text-align: center;
-  width: 185px;
-  padding: 30px 0;
   background-color: #f2f2f2;
   transition: all 0.3s;
 }
