@@ -112,7 +112,8 @@ a {
   margin-top: 20px;
 }
 
-.section-text {
+.section-text-box {
+  margin-top: 40px;
   width: 600px;
 }
 
@@ -121,7 +122,6 @@ a {
   display: flex;
   color: #fff;
   justify-content: space-around;
-  align-items: center;
   padding-top: 50px;
 }
 
