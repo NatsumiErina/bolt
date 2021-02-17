@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 1200px){
+
 .clearfix:after {
   display: block;
   content: "";
@@ -274,4 +276,534 @@ a {
 .footer-text {
   text-align: right;
   color: #fff;
+}
+}
+
+
+@media screen and (min-width: 768px){
+
+  .clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+  
+  body {
+    font-family: Lato;
+  }
+  
+  .is-raleway {
+    font-family: Raleway;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .header {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  
+  .title {
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+  
+  .section-mobile {
+    width: 100%;
+    background-color: #74cfae;
+  }
+  
+  .article-OUR_LATEST_WORK {
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+  
+  .section-OURSKILL {
+    width: 100%;
+    background-color: #4e4e4e;
+  }
+  
+  .nav-icon {
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+  
+  .footer {
+    width: 100%;
+    background-color: #74cfae;
+  }
+  
+  .inner {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .header-inner {
+    padding: 15px 0;
+  }
+  
+  .fa-bolt {
+    color: #4e4e4e;
+    zoom: 1.5;
+  }
+  
+  .header-img {
+    font-size: 27px;
+  }
+  
+  .header-contace {
+    float: right;
+    font-size: 12px;
+    color: #fff;
+    padding: 14px 12px;
+    background-color: #74cfae;
+    font-family: Lato;
+    transition: all 0.3s;
+  }
+  
+  .header-contace:hover {
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .main {
+    padding-top: 70px;
+  }
+  
+  .title-inner {
+    padding: 250px 0;
+    text-align: center;
+  }
+  
+  .title-inner_h1 {
+    font-size: 90px;
+    font-weight: 700;
+    color: #74cfae;
+  }
+  
+  .title-inner_h2 {
+    font-size: 30px;
+    color: #c0c0c0;
+    margin-top: 20px;
+  }
+  
+  .section-text-box {
+    margin-top: 20px;
+    width: 950px;
+  }
+  
+  .section-mobile_inner {
+    text-align: center;
+    color: #fff;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
+  
+  .section-mobile_title {
+    font-size: 24px;
+  }
+  
+  .section-mobile_text {
+    font-size: 20px;
+    margin-top: 35px;
+    padding-bottom: 20px;
+  }
+  
+  .article-inner {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+  
+  .article-title {
+    font-size: 24px;
+    color: #4e4e4e;
+    
+  }
+  
+  .article-img-box {
+    margin-top: 40px;
+    font-size: 0;
+  }
+  
+  .article-img {
+    opacity: 0.7;
+    transition: all 0.3s;
+  }
+  
+  .article-img:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  .article-img-box li {
+    display: list-item;
+  }
+  
+  .article-linl:nth-child(4) {
+    margin-top: 80px;
+  }
+  
+  .article-bottm {
+    margin-top: 80px;
+  }
+  
+  .article-text {
+    font-size: 20px;
+    color: #4e4e4e;
+    width: 100%;
+  }
+  
+  .article_contact {
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    background-color: #74cfae;
+    margin-top: 40px;
+    padding: 14px 20px;
+    transition: all 0.3s;
+  }
+  
+  .article_contace:hover {
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .section-OURSKILL_inner {
+    padding: 70px 0 100px 0;
+  }
+  
+  .section-OURSKILL_title {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .section-OURSKILL_img {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 70px;
+  }
+  
+  .section-img {
+    margin-top: 88px;
+    text-align: center;
+  }
+  
+  .section-img:first-child {
+    margin-top: 0;
+  }
+  
+  
+  .figcaption {
+    margin-top: 10px;
+  }
+  
+  
+  .nav-inner {
+    text-align: center;
+    padding: 200px 0;
+  }
+  
+  .nav-link {
+    width: 185px;
+    padding: 30px 0;
+  }
+  
+  .nav-img {
+    display: inline-block;
+    text-align: center;
+    background-color: #f2f2f2;
+    transition: all 0.3s;
+  }
+  
+  .nav-img:hover {
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .fa-facebook-f, .fa-dribbble, .fa-twitter, .fa-envelope{
+    color: #74cfae;
+    zoom: 3;
+  }
+  
+  .footer-inner {
+    padding: 20px 0 25px 0;
+  }
+  
+  .footer-text {
+    text-align: right;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 767px){
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+  
+  body {
+    font-family: Lato;
+  }
+  
+  .is-raleway {
+    font-family: Raleway;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .header {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  
+  .title {
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+  
+  .section-mobile {
+    width: 100%;
+    background-color: #74cfae;
+  }
+  
+  .article-OUR_LATEST_WORK {
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+  
+  .section-OURSKILL {
+    width: 100%;
+    background-color: #4e4e4e;
+  }
+  
+  .nav-icon {
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+  
+  .footer {
+    width: 100%;
+    background-color: #74cfae;
+  }
+  
+  .inner {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .header-inner {
+    padding: 15px 0;
+  }
+  
+  .fa-bolt {
+    color: #4e4e4e;
+    zoom: 1.5;
+  }
+  
+  .header-img {
+    font-size: 27px;
+  }
+  
+  .header-contace {
+    float: right;
+    font-size: 12px;
+    color: #fff;
+    padding: 14px 12px;
+    background-color: #74cfae;
+    font-family: Lato;
+    transition: all 0.3s;
+  }
+  
+  .header-contace:hover {
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .main {
+    padding-top: 70px;
+  }
+  
+  .title-inner {
+    padding: 250px 0;
+    text-align: center;
+  }
+  
+  .title-inner_h1 {
+    font-size: 90px;
+    font-weight: 700;
+    color: #74cfae;
+  }
+  
+  .title-inner_h2 {
+    font-size: 30px;
+    color: #c0c0c0;
+    margin-top: 20px;
+  }
+  
+  .section-text-box {
+    margin-top: 20px;
+    width: 950px;
+  }
+  
+  .section-mobile_inner {
+    text-align: center;
+    color: #fff;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
+  
+  .section-mobile_title {
+    font-size: 24px;
+  }
+  
+  .section-mobile_text {
+    font-size: 20px;
+    margin-top: 35px;
+    padding-bottom: 20px;
+  }
+  
+  .article-inner {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+  
+  .article-title {
+    font-size: 24px;
+    color: #4e4e4e;
+    
+  }
+  
+  .article-img-box {
+    margin-top: 40px;
+    font-size: 0;
+  }
+  
+  .article-img {
+    opacity: 0.7;
+    transition: all 0.3s;
+  }
+  
+  .article-img:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  .article-img-box li {
+    display: list-item;
+  }
+  
+  .article-linl:nth-child(4) {
+    margin-top: 80px;
+  }
+  
+  .article-bottm {
+    margin-top: 80px;
+  }
+  
+  .article-text {
+    font-size: 20px;
+    color: #4e4e4e;
+    width: 100%;
+  }
+  
+  .article_contact {
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    background-color: #74cfae;
+    margin-top: 40px;
+    padding: 14px 20px;
+    transition: all 0.3s;
+  }
+  
+  .article_contace:hover {
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .section-OURSKILL_inner {
+    padding: 70px 0 100px 0;
+  }
+  
+  .section-OURSKILL_title {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .section-OURSKILL_img {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 70px;
+  }
+  
+  .section-img {
+    margin-top: 88px;
+    text-align: center;
+  }
+  
+  .section-img:first-child {
+    margin-top: 0;
+  }
+  
+  
+  .figcaption {
+    margin-top: 10px;
+  }
+  
+  
+  .nav-inner {
+    text-align: center;
+    padding: 200px 0;
+  }
+  
+  .nav-link {
+    width: 185px;
+    padding: 30px 0;
+  }
+  
+  .nav-img {
+    display: inline-block;
+    text-align: center;
+    background-color: #f2f2f2;
+    transition: all 0.3s;
+  }
+  
+  .nav-img:hover {
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .fa-facebook-f, .fa-dribbble, .fa-twitter, .fa-envelope{
+    color: #74cfae;
+    zoom: 3;
+  }
+  
+  .footer-inner {
+    padding: 20px 0 25px 0;
+  }
+  
+  .footer-text {
+    text-align: right;
+    color: #fff;
+  }
 }
