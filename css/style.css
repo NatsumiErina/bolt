@@ -294,7 +294,8 @@ a {
   }
 
   .section-text-box {
-    width: 100%; 
+    margin: 0 auto;
+    width: 760px;
     margin-top: 35px;
   }
   
@@ -358,10 +359,22 @@ a {
     display: none;
   }
 
-  .header-contace::after {
+  .header-HamburerMenu {
+    float: right;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+  }
+
+  .ham_line {
+    width: 22px;
+    height: 2px;
+    margin-top: 5px;
+    background-color: #ddd;
+  }
+
+  .ham_line:first-child {
+    margin-top: 0;
   }
 
   .title-inner {
@@ -372,16 +385,16 @@ a {
     font-size: 80px;
   }
 
+  .section-text-box {
+    width: 100%;
+  }
+
   .article-text {
-    text-align: justify;
+    word-break: break-all;
   }
 
   .nav-inner {
     padding-top: 50px;
-  }
-
-  .nav-img {
-    margin: 0 15px;
   }
 
   .nav-link {
