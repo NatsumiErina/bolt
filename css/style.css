@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 1200px){
-
 .clearfix:after {
   display: block;
   content: "";
@@ -277,10 +275,10 @@ a {
   text-align: right;
   color: #fff;
 }
-}
 
 
-@media screen and (min-width: 768px){
+
+@media screen and (max-width: 1199px) {
 
   .clearfix:after {
     display: block;
@@ -396,13 +394,11 @@ a {
   
   .section-text-box {
     margin-top: 20px;
-    width: 950px;
   }
   
   .section-mobile_inner {
     text-align: center;
     color: #fff;
-    justify-content: space-around;
     padding-top: 50px;
   }
   
@@ -411,7 +407,6 @@ a {
   }
   
   .section-mobile_text {
-    font-size: 20px;
     margin-top: 35px;
     padding-bottom: 20px;
   }
@@ -544,7 +539,7 @@ a {
   }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
 
 .clearfix:after {
     display: block;
