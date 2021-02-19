@@ -29,32 +29,26 @@ a {
 }
 
 .title {
-  width: 100%;
   background-color: #f2f2f2;
 }
 
 .section-mobile {
-  width: 100%;
   background-color: #74cfae;
 }
 
 .article-OUR_LATEST_WORK {
-  width: 100%;
   background-color: #f2f2f2;
 }
 
 .section-OURSKILL {
-  width: 100%;
   background-color: #4e4e4e;
 }
 
 .nav-icon {
-  width: 100%;
   background-color: #f2f2f2;
 }
 
 .footer {
-  width: 100%;
   background-color: #74cfae;
 }
 
@@ -65,6 +59,10 @@ a {
 
 .header-inner {
   padding: 15px 0;
+}
+
+.header-HamburerMenu {
+  display: none;
 }
 
 .fa-bolt {
@@ -82,7 +80,6 @@ a {
   color: #fff;
   padding: 14px 12px;
   background-color: #74cfae;
-  font-family: Lato;
   transition: all 0.3s;
 }
 
@@ -136,8 +133,7 @@ a {
 
 .article-inner {
   text-align: center;
-  padding-top: 60px;
-  padding-bottom: 70px;
+  padding: 60px 0 70px 0;
 }
 
 .article-title {
@@ -221,7 +217,6 @@ a {
   align-items: center;
   justify-content: center;
   font-size: 16px;
-  color: #fff;
   margin-top: 70px;
 }
 
@@ -236,6 +231,7 @@ a {
 
 
 .figcaption {
+  color: #fff;
   margin-top: 10px;
 }
 
@@ -262,7 +258,7 @@ a {
   cursor: pointer;
 }
 
-.fa-facebook-f, .fa-dribbble, .fa-twitter, .fa-envelope{
+.snsicon{
   color: #74cfae;
   zoom: 3;
 }
@@ -295,7 +291,7 @@ a {
 
   .section-text-box {
     margin: 0 auto;
-    width: 760px;
+    width: 95%;
     margin-top: 35px;
   }
   
@@ -305,7 +301,7 @@ a {
     text-align: center;
   }
 
-  .article-linl:nth-child(4) {
+  .article-linl:nth-child(3n+1) {
     margin-top: 80px;
   }
   
@@ -322,8 +318,7 @@ a {
   }
   
   .article_contact {
-    margin-top: 40px;
-    margin-left: 0;
+    margin: 40px 0 0 0;
   }
 
   .section-OURSKILL_img {
@@ -340,17 +335,13 @@ a {
     margin-top: 0;
   }
 
-  .nav-link {
-    width: 180px;
+  .nav-inner {
+    font-size: 0;
   }
 
-  .footer-inner {
-    padding: 20px 0 25px 0;
-  }
-  
-  .footer-text {
-    text-align: right;
-    color: #fff;
+  .nav-link {
+    font-size: 14px;
+    width: 185px;
   }
 }
 
@@ -360,6 +351,7 @@ a {
   }
 
   .header-HamburerMenu {
+    display: inline-block;
     float: right;
     padding: 10px;
     border: 1px solid #ddd;
@@ -394,7 +386,7 @@ a {
   }
 
   .nav-inner {
-    padding-top: 50px;
+    padding: 50px 0;
   }
 
   .nav-link {
